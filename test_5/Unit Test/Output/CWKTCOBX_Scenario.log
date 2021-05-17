@@ -1,0 +1,42 @@
+13:49:13.426 INFO      TOPAZ            ***************************************
+13:49:13.426 INFO      TOPAZ            ** Execution from Topaz with options **
+13:49:13.427 INFO      TOPAZ            ***************************************
+13:49:13.427 INFO      TOPAZ            Using repository: true
+13:49:13.427 INFO      TOPAZ            Repository URL: http://dtw-xatesterwin.nasa.cpwr.corp:48229/totaltestapi/
+13:49:13.427 INFO      TOPAZ            ***************************************
+13:49:13.430 INFO      Engine           Test Scenario execution started
+13:49:13.430 INFO      Engine           Using context settings:
+  Engine Version                : 20.6
+  Environment id                : CW01-16196 Batch
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : 10.10.0.200
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : amippa0
+  Use Repository Server         : false
+13:49:13.431 INFO      Engine           Setting variables from context and context data extensions
+13:49:13.431 INFO      Engine             id: environmentId      value: CW01-16196 Batch
+13:49:13.435 INFO      Engine             id: environmentType    value: BATCH
+13:49:13.435 INFO      Engine             id: userId             value: AMIPPA0
+13:49:13.435 INFO      Engine             id: accountingInfo     value: 
+13:49:13.436 INFO      Engine             id: envname            value: Test
+13:49:13.436 INFO      Engine             id: level              value: PDSE
+13:49:13.437 INFO      Unittest         Interpreting Unittest of module: CWKTCOBX testscenario path: CWKTCOBX_Scenario.testscenario
+13:49:13.940 INFO      Unittest         Using JCL skeleton to submit JCL
+13:49:19.394 INFO      CW01-16196 Batch Sending Job execution request to Host 
+13:49:24.870 INFO      CW01-16196 Batch Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job AMIPPA0A(J0971311) ended with return code: 0000
+  Job name       : AMIPPA0A
+  Job id         : J0971311
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+13:49:28.349 INFO      Unittest         Execution completed
+13:49:28.350 INFO      Engine           Test Scenario execution ended
